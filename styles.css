@@ -1,0 +1,340 @@
+/* Styles généraux */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: black;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(0, 128, 0, 0.5), transparent);
+    background-size: 400% 400%;
+    animation: backgroundAnimation 8s infinite;
+    z-index: -1;
+}
+
+@keyframes backgroundAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 1rem;
+    animation: logoGlow 2s infinite alternate;
+}
+
+@keyframes logoGlow {
+    0% { filter: drop-shadow(0 0 10px #0f0); }
+    100% { filter: drop-shadow(0 0 20px #0f0); }
+}
+
+h1 {
+    font-size: 3rem;
+    animation: textGlow 2s infinite alternate;
+}
+
+@keyframes textGlow {
+    0% { text-shadow: 0 0 10px #0f0, 0 0 20px #0f0; }
+    100% { text-shadow: 0 0 20px #0f0, 0 0 40px #0f0; }
+}
+
+/* Boutons arrondis */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.neon-button {
+    background: transparent;
+    border: 2px solid #0f0;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    animation: buttonGlow 2s infinite alternate;
+}
+
+.neon-button:hover {
+    background: #0f0;
+    color: #000;
+}
+
+@keyframes buttonGlow {
+    0% { box-shadow: 0 0 10px #0f0; }
+    100% { box-shadow: 0 0 20px #0f0; }
+}
+
+/* Section explications */
+.explanations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.neon-box {
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid #0f0;
+    padding: 1.5rem;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 0 20px #0f0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.neon-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px #0f0;
+}
+
+.neon-box h2, .neon-box p {
+    animation: textFadeIn 1.5s ease forwards;
+    opacity: 0;
+}
+
+@keyframes textFadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Section graphique */
+.crypto-info {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-top: 2px solid #0f0;
+}
+
+.crypto-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0f0;
+}
+
+.crypto-info canvas {
+    max-width: 90%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #000;
+    border-top: 1px solid #0f0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    color: #0f0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement (si nécessaire) */
+    height: 10vh; /* Optionnel, pour s'assurer que le parent prend toute la hauteur de la page */
+}
+
+#creatorButton {
+    margin-top: 1.5rem;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: 2px solid #0f0;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    animation: buttonGlow 2s infinite alternate;
+}
+
+/* Effet au survol */
+#creatorButton:hover {
+    background: #0f0;
+    color: #000;
+}
+
+/* Réutilisation de l'animation de glow des boutons */
+@keyframes buttonGlow {
+    0% { box-shadow: 0 0 10px #0f0; }
+    100% { box-shadow: 0 0 20px #0f0; }
+}
+
+
+
+
+
+/* Styles généraux */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: black;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(0, 128, 0, 0.5), transparent);
+    background-size: 400% 400%;
+    animation: backgroundAnimation 8s infinite;
+    z-index: -1;
+}
+
+@keyframes backgroundAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 1rem;
+    animation: logoGlow 2s infinite alternate;
+}
+
+@keyframes logoGlow {
+    0% { filter: drop-shadow(0 0 10px #0f0); }
+    100% { filter: drop-shadow(0 0 20px #0f0); }
+}
+
+h1 {
+    font-size: 3rem;
+    animation: textGlow 2s infinite alternate;
+}
+
+@keyframes textGlow {
+    0% { text-shadow: 0 0 10px #0f0, 0 0 20px #0f0; }
+    100% { text-shadow: 0 0 20px #0f0, 0 0 40px #0f0; }
+}
+
+/* Boutons généraux */
+.neon-button {
+    background: transparent;
+    border: 2px solid #0f0;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    animation: buttonGlow 2s infinite alternate;
+}
+
+.neon-button:hover {
+    background: #0f0;
+    color: #000;
+}
+
+@keyframes buttonGlow {
+    0% { box-shadow: 0 0 10px #0f0; }
+    100% { box-shadow: 0 0 20px #0f0; }
+}
+
+/* Section des boutons de navigation */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+/* Section de l'achat avec les boutons */
+.purchase-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Occupation de 60% de la hauteur de la page */
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.neon-box {
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid #0f0;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 0 20px #0f0;
+    margin-bottom: 2rem;
+    text-align: left; /* Aligne le texte à gauche dans la boîte */
+}
+
+.purchase-options {
+    display: flex;
+    gap: 2rem;
+}
+
+.purchase-button {
+    background: transparent;
+    border: 2px solid #0f0;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    animation: buttonGlow 2s infinite alternate;
+}
+
+.purchase-button:hover {
+    background: #0f0;
+    color: #000;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #000;
+    border-top: 1px solid #0f0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    color: #0f0;
+}
