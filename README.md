@@ -12,7 +12,7 @@ Le site a plusieurs fonctions :
 
 ## 🌐 Accéder au site
 
-Le site est déjà en ligne et accessible à tous ! Vous pouvez le visiter [ici]('https://rillette.netlify.app') pour explorer l'univers de Rillette et suivre l'évolution de ce projet ambitieux.
+Le site est déjà en ligne et accessible à tous ! Vous pouvez le visiter [ici](https://rillette.netlify.app) pour explorer l'univers de Rillette et suivre l'évolution de ce projet ambitieux.
 
 ## 🛠️ Technologie utilisée
 
