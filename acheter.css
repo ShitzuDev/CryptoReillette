@@ -165,7 +165,6 @@ footer {
     background: #000;
     border-top: 1px solid #0f0;
     margin-top: 2rem;
-    margin-bottom: 2rem; /* Optionnel, ajustez si nécessaire pour plus d'espace */
 }
 
 footer p {
@@ -173,3 +172,6 @@ footer p {
     font-size: 1rem;
     color: #0f0;
 }
+
+
+

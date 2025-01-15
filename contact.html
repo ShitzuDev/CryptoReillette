@@ -14,28 +14,37 @@
     </header>
     <main>
         <section class="buttons">
-            <button class="neon-button">Accueil</button>
-            <button class="neon-button">Acheter</button>
-            <button class="neon-button">Histoire</button>
+            <a href="Index.html">
+                <button class="neon-button">Accueil</button>
+            </a> 
+            <a href="acheter.html">
+                <button class="neon-button">Acheter</button>
+            </a> 
+            <a href="histoire.html">
+                <button class="neon-button">Histoire</button>
+            </a> 
         </section>
-        <section class="contact-form">
+        <section class="purchase-container">
             <div class="neon-box">
                 <h2>📬 Nous Contacter</h2>
                 <p>Pour toute question, demande de partenariat ou suggestion, n'hésitez pas à nous contacter. Nous sommes à votre écoute !</p>
                 <form action="mailto:contact@cryptoreillette.fr" method="post" enctype="text/plain">
-                    <label for="name">Votre nom:</label>
-                    <input type="text" id="name" name="name" required>
-                    <label for="email">Votre email:</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="message">Votre message:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                    <button type="submit" class="neon-button">Envoyer le message</button>
-                </form>
-            </div>
+                        <label for="name">Votre nom :</label>
+                        <input type="text" id="name" placeholder="Entrez votre nom" required>
+                        
+                        <label for="email">Votre email :</label>
+                        <input type="email" id="email" placeholder="Entrez votre email" required>
+                        
+                        <label for="message">Message :</label>
+                        <textarea id="message" placeholder="Tapez votre message ici..." required></textarea>
+                        
+                        <button type="submit">Envoyer le message</button>
+                    </form>
+                </div>
         </section>
     </main>
     <footer>
-        <p>© 2025 Crypto Reillette. Tous droits réservés.</p>
+        <p>© 2025 Crypto Rillette. Tous droits réservés.</p>
     </footer>
     <script src="script.js"></script>
 </body>
