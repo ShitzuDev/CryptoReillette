@@ -28,4 +28,4 @@ L'idée derrière ce projet est de combiner technologie et créativité dans un 
 
 ## 🛠️ Une Fin Inattendue...
 
-Cependant, avec la libération de **Rillette** 🐷, l'idée de créer cette cryptomonnaie perd son sens. Je ne vois plus la raison de continuer ce projet. 😔
+Cependant, avec la libération de **Rillette** 🐗, l'idée de créer cette cryptomonnaie perd son sens. Je ne vois plus la raison de continuer ce projet. 😔
