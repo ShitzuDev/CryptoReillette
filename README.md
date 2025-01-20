@@ -30,4 +30,15 @@ L'idée derrière ce projet est de combiner technologie et créativité dans un 
 
 Cependant, avec la libération de **Rillette** 🐗, l'idée de créer cette cryptomonnaie perd son sens. 😔
 
+## 🌐 Une Trace de Ce Projet 
+
+Je vous partage mon code 💾, afin de laisser une trace de ce projet que j'ai voulu créer. 
+
+Par contre, le site web **ne doit pas être utilisé de façon malveillante ou inappropriée** 🚫. Je retire toute responsabilité en cas de mauvais usage. 🙏
+
+## 🚀 Direct By Shitzu 
+
+Merci d'avoir pris le temps de découvrir ce projet ! Votre curiosité et votre intérêt signifient beaucoup. ✨
+
+
 
