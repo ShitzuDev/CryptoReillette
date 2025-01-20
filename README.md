@@ -26,6 +26,6 @@ Le site a été conçu avec des technologies simples mais efficaces :
 
 L'idée derrière ce projet est de combiner technologie et créativité dans un cadre ludique. En explorant le monde de la blockchain à travers un concept amusant, **Rillette le Sanglier** devient une porte d'entrée originale vers des technologies complexes, tout en offrant une expérience agréable et légère.
 
-== 🛠️ Projet du Site Web : Une Fin Inattendue ==
+## 🛠️ Une Fin Inattendue...
 
 Cependant, avec la libération de **Rillette** 🐷, l'idée de créer cette cryptomonnaie perd son sens. Je ne vois plus la raison de continuer ce projet. 😔
